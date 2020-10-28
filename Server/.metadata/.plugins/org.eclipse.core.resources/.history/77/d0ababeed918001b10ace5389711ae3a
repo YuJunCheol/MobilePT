@@ -1,0 +1,21 @@
+package DAO;
+
+import VO.Message;
+
+public class Insert extends DBConnection{
+	
+	public Insert() {
+		
+	}
+	
+	public Insert(Message member) {
+		//System.out.println(member.getmember_id());
+		
+		String sql ="INSERT INTO member(id,pw) VALUS(?,?)";
+		try {
+			r = st.executeUpdate(sql);
+		}catch(Exception e) {
+			System.out.println("(!)[insert.member]: " + e.getMessage());
+		}
+	}
+}

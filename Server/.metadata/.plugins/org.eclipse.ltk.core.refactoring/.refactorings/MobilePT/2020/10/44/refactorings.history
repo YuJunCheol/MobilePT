@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Socket.Socket.java&apos; to &apos;Server.java&apos;&#x0D;&#x0A;- Original project: &apos;MobilePT&apos;&#x0D;&#x0A;- Original element: &apos;Socket.Socket.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Socket.Server.java&apos;" description="Rename compilation unit &apos;Socket.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;Socket{Socket.java" name="Server.java" references="false" stamp="1603816511705" version="1.0"/>
+</session>
